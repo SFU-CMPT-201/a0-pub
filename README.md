@@ -12,7 +12,7 @@ In order to do this, here are the steps that you must follow.
 * More precisely, every time you do the tutorial, make sure you do the following.
     * Make sure you are in the correct directory for this assignment by entering `cd ~/units/01-intro/a0`.
     * First, enter `script -a`, which starts recording what you do in your terminal and saves it to a file named `typescript`.
-    * Follow the tutorial and do the activities.
+    * Follow the tutorial and do the activities. However, there is one exception. For the *6. Vi Text Editor** section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do not use the original vi. Instead, we use Neovim, a newer implementation of vi.
     * If you want to stop, enter `exit`, which stops recording.
     * Next time you come back, go to the correct directory (`cd ~/units/01-intro/a0`) and enter `script -a` again. It does not overwrite what you have recorded previously. It just appends to the existing recording.
     * Once you are done with the tutorial and ready to submit, enter the following commands. (Note that `$` indicates the command prompt. Do not enter it.)

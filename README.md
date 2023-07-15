@@ -24,7 +24,7 @@ In order to do this, here are the steps that you must follow.
     $ git commit -m "A0 submission"
     $ git push
     ```
-    * "A0 submission" is a *commit message*, and you are free to replace it with your own message.
+    * "A0 submission" is a *commit message*, and you are free to replace it with your own message. `git log` shows commit messages.
     * If you'd like to back up what you have been doing at any point, you can enter the above commands even when you are not ready to submit. The commands just push your files to your repo.
 
 (**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `[Space]` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)

@@ -1,6 +1,6 @@
 # Assignment 0: Command-Line Interface (CLI)
 
-(**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `[Space]` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)
+(**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)
 
 In this assignment, you will follow an online tutorial on how to use the command-line interface (CLI). CLI has been around for decades and there are many great tutorials online. The particular one that we will use is from [Ryan's Tutorials](https://ryanstutorials.net/), and we think that it is a very nice, introductory-level tutorial for beginners. How long it takes depends on your prior background, but the tutorial is *not* short. Be prepared to spend a few hours on this and start early.
 
@@ -27,4 +27,4 @@ In order to do this, here are the steps that you must follow.
     * If you recall, `git add` tells `git` that you want to save the contents of the files or directories that you provide as the arguments (a question here that you should be able to answer from the tutorial that you just did---what is `.`?). `git commit` permanently saves the file contents, and `git push` uploads the saved files to your remote GitHub Classroom repo for the assignment. `git commit` requires a commit message, and in the above, "A0 submission" is the commit message. You are free to replace it with your own message. `git log` shows commit messages.
     * If you'd like to back up what you have been doing at any point, you can enter the above commands even when you are not ready to submit. Again, the commands push your files to your remote GitHub Classroom repo for the assignment.
 
-(**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `[Space]` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)
+(**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)

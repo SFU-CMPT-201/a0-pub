@@ -27,4 +27,8 @@ In order to do this, here are the steps that you must follow.
     * If you recall, `git add` tells `git` that you want to save the contents of the files or directories that you provide as the arguments (a question here that you should be able to answer from the tutorial that you just did---what is `.`?). `git commit` permanently saves the file contents, and `git push` uploads the saved files to your remote GitHub Classroom repo for the assignment. `git commit` requires a commit message, and in the above, "A0 submission" is the commit message. You are free to replace it with your own message. `git log` shows commit messages.
     * If you'd like to back up what you have been doing at any point, you can enter the above commands even when you are not ready to submit. Again, the commands push your files to your remote GitHub Classroom repo for the assignment.
 
+# Tips
+
+At the end of the tutorial, there is a [cheat sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes basic commands. We highly recommend to open the page in your browser and keep it in the background throughout the semester, so you can easily look up the commands that you want to use.
+
 (**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)

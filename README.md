@@ -31,4 +31,8 @@ In order to do this, here are the steps that you must follow.
 
 At the end of the tutorial, there is a [cheat sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes basic commands. We highly recommend to open the page in your browser and keep it in the background throughout the semester, so you can easily look up the commands that you want to use.
 
+# Note
+
+From now on, we will not show the navigation instructions for `glow`. Keep using `glow -p` to read the Markdown files (`.md`) but remember the navigation keys.
+
 (**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)

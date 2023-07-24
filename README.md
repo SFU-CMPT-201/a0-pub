@@ -35,4 +35,15 @@ At the end of the tutorial, there is a [cheat sheet](https://ryanstutorials.net/
 
 From now on, we will not show the navigation instructions for `glow`. Keep using `glow -p` to read the Markdown files (`.md`) but remember the navigation keys.
 
+# Next steps
+
+You need to accept the invite for the next assignment (A1). The process is the same as the last time.
+
+- Go to this URL: [https://classroom.github.com/a/PGPiPLGw](https://classroom.github.com/a/PGPiPLGw)
+- Accept the invite for Assignment 1 (A1). It creates a private repo for you that contains the assignment.
+- After your repo is created, click the URL displayed on the page to go to your repo.
+- If you are not in `units/02-tools` directory, go to that directory by entering `cd ~/units/02-tools`.
+- Enter `git clone git@github.com:SFU-CMPT-201/a1-USERNAME.git` but replace USERNAME with your actual GitHub username.
+- This clones the assignment under a new directory named `a1-USERNAME` (where USERNAME is still your GitHub username) under `units/02-tools` directory.
+
 (**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)

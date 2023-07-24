@@ -29,7 +29,7 @@ In order to do this, here are the steps that you must follow.
 
 # Tips
 
-At the end of the tutorial, there is a [cheat sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes basic commands. We highly recommend to open the page in your browser and keep it in the background throughout the semester, so you can easily look up the commands that you want to use.
+At the end of the tutorial, there is a [cheat sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes basic commands. We highly recommend you to open the page in your browser and keep it in the background throughout the semester, so you can easily look up the commands that you want to use.
 
 # Note
 

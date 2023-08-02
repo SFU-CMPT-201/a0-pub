@@ -1,49 +1,107 @@
 # Assignment 0: Command-Line Interface (CLI)
 
-(**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)
+(**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to
+the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line. You probably
+want to remember these keys now since you need to scroll up and down this document as you read it.)
 
-In this assignment, you will follow an online tutorial on how to use the command-line interface (CLI). CLI has been around for decades and there are many great tutorials online. The particular one that we will use is from [Ryan's Tutorials](https://ryanstutorials.net/), and we think that it is a very nice, introductory-level tutorial for beginners. How long it takes depends on your prior background, but the tutorial will probably take less than 3 hours.
+In this assignment, you will follow an online tutorial on how to use the command-line interface
+(CLI). CLI has been around for decades and there are many great tutorials online. The particular one
+that we will use is from [Ryan's Tutorials](https://ryanstutorials.net/), and we think that it is a
+very nice, introductory-level tutorial for beginners. How long it takes depends on your prior
+background, but the tutorial will probably take less than 3 hours.
 
 In order to do this, here are the steps that you must follow.
 
-* Use your browser to open the tutorial. The URL is [https://ryanstutorials.net/linuxtutorial/](https://ryanstutorials.net/linuxtutorial/).
-* Use a terminal instance as you follow along the tutorial. Try out the commands that the tutorial demonsrates.
-* At the end of each section, there are **Activities** that the tutorial asks you to do. You *must* do these activities because *those are what we grade*.
-* For grading, you need to record what you do and submit the recording. We use `script`, a program that records what happens in the terminal and saves it to a file. So before you start the tutorial, you need to run `script` and record what you do in a file, and later submit the file when you're done.
-* You don't need to do the tutorial in one sitting as `script` allows you to stop recording and resume later.
+* Use your browser to open the tutorial. The URL is
+  [https://ryanstutorials.net/linuxtutorial/](https://ryanstutorials.net/linuxtutorial/).
+* Use a terminal instance as you follow along the tutorial. Try out the commands that the tutorial
+  demonstrates.
+* At the end of each section, there are **Activities** that the tutorial asks you to do. You *must*
+  do these activities because *those are what we grade*.
+* For grading, you need to record what you do and submit the recording. For this, you will use
+  `script`, a program that records what happens in the terminal and saves it to a file. So before
+  you start the tutorial, you need to run `script` and record what you do in a file, and later
+  submit the file when you're done.
+* You don't need to do the tutorial in one sitting as `script` allows you to stop recording and
+  resume later.
 * More precisely, every time you do the tutorial, follow these steps.
-    * Make sure you are in the correct directory for this assignment by entering `cd ~/units/01-intro/a0`.
-    * First, enter `script -a`, which starts recording what you do in your terminal and saves it to a file named `typescript`.
-    * Follow the tutorial and do the activities. However, there is one exception. For *6. Vi Text Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do not use the original vi. Instead, we use Neovim, a newer implementation of vi.
+    * Make sure you are in the correct directory for this assignment by entering `cd
+      ~/units/01-intro/a0`.
+    * First, enter `script -a`, which starts recording what you do in your terminal and saves it to
+      a file named `typescript`.
+    * Follow the tutorial and do the activities. However, there is one exception. For *6. Vi Text
+      Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do not use
+      the original vi. Instead, we use Neovim, a newer implementation of vi.
     * If you want to stop, enter `exit`, which stops recording.
-    * Next time you come back, go to the correct directory (`cd ~/units/01-intro/a0`) and enter `script -a` again. It does not overwrite what you have recorded previously. It just appends to the existing recording.
-    * Once you are done with the tutorial and ready to submit, use `git` to push the recording. For that, you can enter the following commands. (Note that `$` indicates the command prompt. Do not enter it.)
-    ```bash
-    $ cd ~/units/01-intro/a0
-    $ git add .
-    $ git commit -m "A0 submission"
-    $ git push
-    ```
-    * If you recall, `git add` tells `git` that you want to save the contents of the files or directories that you provide as the arguments (a question here that you should be able to answer from the tutorial that you just did---what is `.`?). `git commit` permanently saves the file contents, and `git push` uploads the saved files to your remote GitHub Classroom repo for the assignment. `git commit` requires a commit message, and in the above, "A0 submission" is the commit message. You are free to replace it with your own message. `git log` shows commit messages.
-    * If you'd like to back up what you have been doing at any point, you can enter the above commands even when you are not ready to submit. Again, the commands push your files to your remote GitHub Classroom repo for the assignment.
+    * Next time you come back, go to the correct directory (`cd ~/units/01-intro/a0`) and enter
+      `script -a` again. It does not overwrite what you have recorded previously. It just appends to
+      the existing recording.
+    * Once you are done with the tutorial and ready to submit, use `git` to push the recording. For
+      that, you can enter the following commands. (Note that `$` indicates the command prompt. Do
+      not enter it.)
+
+      ```bash
+      $ cd ~/units/01-intro/a0
+      $ git add .
+      $ git commit -m "A0 submission"
+      $ git push
+      ```
+    * ***Your final submission is whatever you `git push` by the deadline.*** When you have your
+      final recording, make sure you `git push` it.
+    * If you recall, `git add` tells `git` that you want to save the contents of the files or
+      directories that you provide as the arguments (a question here that you should be able to
+      answer from the tutorial that you just did---what is `.`?). `git commit` permanently saves the
+      file contents, and `git push` uploads the saved files to your remote GitHub Classroom repo for
+      the assignment. `git commit` requires a commit message, and in the above, "A0 submission" is
+      the commit message. You are free to replace it with your own message. `git log` shows commit
+      messages.
+    * If you'd like to back up what you have been doing at any point, you can enter the above
+      commands even when you are not ready to submit. Again, the commands push your files to your
+      remote GitHub Classroom repo for the assignment.
+
+# Git workflow
+
+We mentioned this before, but will mention it here again. Generally, working with `git` has the
+following workflow. You will use these commands throughout the semester.
+
+* `git clone <URL>`: This command clones (i.e., copies) a remote code repo at the URL to your local
+  machine. This is typically the very first thing you do.
+* `git add <file0> <file1> ...`: This command tells `git` that you want to save the contents of
+  `file0`, `file1`, ....
+* `git commit -m <message>`: This command permanently saves the contents of the added files from
+  previous `git add` commands. You need to provide a short message that describes what this commit
+  is for. You can view these messages with `git log` command.
+* `git push`: This command pushes (i.e., uploads) all the committed files to the remote repo i.e.,
+  the repo that you cloned from using `git clone`.
+
+`git` has many more commands and features since it is a version control and collaboration tool.
+Although we do not use other commands or features in this course, you can take a look at GitHub's
+[Quickstart](https://docs.github.com/en/get-started/quickstart) page to get more information about
+`git`.
 
 # Tips
 
-At the end of the tutorial, there is a [cheat sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes basic commands. We highly recommend you to open the page in your browser and keep it in the background throughout the semester, so you can easily look up the commands that you want to use.
-
-# Note
-
-From now on, we will not show the navigation instructions for `glow`. Keep using `glow -p` to read the Markdown files (`.md`) but remember the navigation keys.
+At the end of the tutorial, there is a [cheat
+sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes basic commands. We
+highly recommend you to open the page in your browser and keep it in the background throughout the
+semester, so you can easily look up the commands that you want to use.
 
 # Next steps
 
 You need to accept the invite for the next assignment (A1). The process is the same as the last time.
 
-- Go to this URL: [https://classroom.github.com/a/PGPiPLGw](https://classroom.github.com/a/PGPiPLGw)
-- Accept the invite for Assignment 1 (A1). It creates a private repo for you that contains the assignment.
-- After your repo is created, click the URL displayed on the page to go to your repo.
-- If you are not in `units/02-tools` directory, go to that directory by entering `cd ~/units/02-tools`.
-- Enter `git clone git@github.com:SFU-CMPT-201/a1-USERNAME.git` but replace USERNAME with your actual GitHub username.
-- This clones the assignment under a new directory named `a1-USERNAME` (where USERNAME is still your GitHub username) under `units/02-tools` directory.
+* Go to this URL: [https://classroom.github.com/a/PGPiPLGw](https://classroom.github.com/a/PGPiPLGw)
+* Accept the invite for Assignment 1 (A1). It creates a private repo for you that contains the
+  assignment.
+* After your repo is created, click the URL displayed on the page to go to your repo.
+* If you are not in `units/02-tools` directory, go to that directory by entering `cd
+  ~/units/02-tools`.
+* Enter `git clone git@github.com:SFU-CMPT-201/a1-USERNAME.git` but replace USERNAME with your
+  actual GitHub username.
+* This clones the assignment under a new directory named `a1-USERNAME` (where USERNAME is still your
+  GitHub username) under `units/02-tools` directory.
 
-(**Navigation**: Type `q` to exit. Type `b` to go back to the previous page. Type `<Space>` to go to the next page. Type `j` to scroll down by one line. Type `k` to scroll up by one line.)
+# Note
+
+From now on, we will not show the navigation instructions for `glow`. Keep using `glow -p` to read
+the Markdown files (`.md`) but remember the navigation keys.

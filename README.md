@@ -50,11 +50,11 @@ In order to do this, here are the steps that you must follow.
       final recording, make sure you `git push` it.
     * If you recall, `git add` tells `git` that you want to save the contents of the files or
       directories that you provide as the arguments (a question here that you should be able to
-      answer from the tutorial that you just did---what is `.`?). `git commit` permanently saves the
-      file contents, and `git push` uploads the saved files to your remote GitHub Classroom repo for
-      the assignment. `git commit` requires a commit message, and in the above, "A0 submission" is
-      the commit message. You are free to replace it with your own message. `git log` shows commit
-      messages.
+      answer from the tutorial that you just did---what is `.` in `git add .`?). `git commit`
+      permanently saves the file contents, and `git push` uploads the saved files to your remote
+      GitHub Classroom repo for the assignment. `git commit` requires a commit message, and in the
+      above, "A0 submission" is the commit message. You are free to replace it with your own
+      message. `git log` shows commit messages.
     * If you'd like to back up what you have been doing at any point, you can enter the above
       commands even when you are not ready to submit. Again, the commands push your files to your
       remote GitHub Classroom repo for the assignment.
@@ -85,6 +85,23 @@ At the end of the tutorial, there is a [cheat
 sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes basic commands. We
 highly recommend you to open the page in your browser and keep it in the background throughout the
 semester, so you can easily look up the commands that you want to use.
+
+# Other features
+
+The shell you use on this VM is called [zsh](https://www.zsh.org/) and we have configured it with a
+few convenient features. You are encouraged to try them out and use them.
+
+* You might have noticed that as you type on the command line, it shows a suggestion. Pressing the
+  right arrow accepts the suggestion.
+* Pressing `<Ctrl>-r` opens your command history with a tool called
+  [fzf](https://github.com/junegunn/fzf). fzf is a *fuzzy* finder that matches partial strings. This
+  allows you to easily find a command that you have typed before.
+* Pressing `<Ctrl>-t` opens fzf to find files located below the current directory in the file
+  hierarchy. You can use this to quickly find a file.
+* You might have noticed that the right most side of the command line shows git information such as
+  the current git [*branch*](https://shorturl.at/dmt24) and the modification status.
+* Instead of `ls`, you can use [`exa`](https://github.com/ogham/exa), a more modern implementation
+  of `ls` that has some useful features.
 
 # Next steps
 

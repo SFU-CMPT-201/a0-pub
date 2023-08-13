@@ -25,39 +25,39 @@ In order to do this, here are the steps that you must follow.
 * You don't need to do the tutorial in one sitting as `script` allows you to stop recording and
   resume later.
 * More precisely, every time you do the tutorial, follow these steps.
-    * Make sure you are in the correct directory for this assignment by entering `cd
-      ~/units/02-tools/a0`.
-    * First, enter `script -a`, which starts recording what you do in your terminal and saves it to
-      a file named `typescript`.
-    * Follow the tutorial and do the activities. However, there is one exception. For *6. Vi Text
-      Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do not use
-      the original vi. Instead, we use Neovim, a newer implementation of vi.
-    * If you want to stop, enter `exit`, which stops recording.
-    * Next time you come back, go to the correct directory (`cd ~/units/02-tools/a0`) and enter
-      `script -a` again. It does not overwrite what you have recorded previously. It just appends to
-      the existing recording.
-    * Once you are done with the tutorial and ready to submit, use `git` to push the recording. For
-      that, you can enter the following commands. (Note that `$` indicates the command prompt. Do
-      not enter it.)
+  * Make sure you are in the correct directory for this assignment by entering `cd
+    ~/units/02-tools/a0`.
+  * First, enter `script -a`, which starts recording what you do in your terminal and saves it to
+    a file named `typescript`.
+  * Follow the tutorial and do the activities. However, there is one exception. For *6. Vi Text
+    Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do not use
+    the original vi. Instead, we use Neovim, a newer implementation of vi.
+  * If you want to stop, enter `exit`, which stops recording.
+  * Next time you come back, go to the correct directory (`cd ~/units/02-tools/a0`) and enter
+    `script -a` again. It does not overwrite what you have recorded previously. It just appends to
+    the existing recording.
+  * Once you are done with the tutorial and ready to submit, use `git` to push the recording. For
+    that, you can enter the following commands. (Note that `$` indicates the command prompt. Do
+    not enter it.)
 
-      ```bash
-      $ cd ~/units/02-tools/a0
-      $ git add .
-      $ git commit -m "A0 submission"
-      $ git push
-      ```
-    * ***Your final submission is whatever you `git push` by the deadline.*** When you have your
-      final recording, make sure you `git push` it.
-    * If you recall, `git add` tells `git` that you want to save the contents of the files or
-      directories that you provide as the arguments (a question here that you should be able to
-      answer from the tutorial that you just did---what is `.` in `git add .`?). `git commit`
-      permanently saves the file contents, and `git push` uploads the saved files to your remote
-      GitHub Classroom repo for the assignment. `git commit` requires a commit message, and in the
-      above, "A0 submission" is the commit message. You are free to replace it with your own
-      message. `git log` shows commit messages.
-    * If you'd like to back up what you have been doing at any point, you can enter the above
-      commands even when you are not ready to submit. Again, the commands push your files to your
-      remote GitHub Classroom repo for the assignment.
+    ```bash
+    $ cd ~/units/02-tools/a0
+    $ git add .
+    $ git commit -m "A0 submission"
+    $ git push
+    ```
+  * ***Your final submission is whatever you `git push` by the deadline.*** When you have your
+    final recording, make sure you `git push` it.
+  * If you recall, `git add` tells `git` that you want to save the contents of the files or
+    directories that you provide as the arguments (a question here that you should be able to
+    answer from the tutorial that you just did---what is `.` in `git add .`?). `git commit`
+    permanently saves the file contents, and `git push` uploads the saved files to your remote
+    GitHub Classroom repo for the assignment. `git commit` requires a commit message, and in the
+    above, "A0 submission" is the commit message. You are free to replace it with your own
+    message. `git log` shows commit messages.
+  * If you'd like to back up what you have been doing at any point, you can enter the above
+    commands even when you are not ready to submit. Again, the commands push your files to your
+    remote GitHub Classroom repo for the assignment.
 
 # Git workflow
 
@@ -74,10 +74,10 @@ following workflow. You will use these commands throughout the semester.
 * `git push`: This command pushes (i.e., uploads) all the committed files to the remote repo i.e.,
   the repo that you cloned from using `git clone`.
 
-`git` has many more commands and features since it is a version control and collaboration tool.
-Although we do not use other commands or features in this course, you can take a look at GitHub's
-[Quickstart](https://docs.github.com/en/get-started/quickstart) page to get more information about
-`git`.
+Git is a very powerful tool for version control and collaboration, and it is part of every
+developer's workflow these days. Although we do not really teach Git other than telling you to use
+the above commands, you are encouraged to learn it by yourself. You can start by taking a look at
+GitHub's [Quickstart](https://docs.github.com/en/get-started/quickstart) page.
 
 # Tips
 

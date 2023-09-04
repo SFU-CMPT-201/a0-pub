@@ -80,8 +80,8 @@ again.
 
 Git is a very powerful tool for version control and collaboration, and it is part of every
 developer's workflow these days. Although we do not really teach Git other than telling you to use
-the above commands, you are encouraged to learn it by yourself. You can start by taking a look at
-GitHub's [Quickstart](https://docs.github.com/en/get-started/quickstart) page.
+the above commands, we highly encourage you to learn it by yourself. You can start by taking a look
+at GitHub's [Quickstart](https://docs.github.com/en/get-started/quickstart) page.
 
 # Tips
 

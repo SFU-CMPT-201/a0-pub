@@ -63,7 +63,7 @@ In order to do this, here are the steps that you must follow.
       commands even when you are not ready to submit. Again, the above commands push your files to
       your remote GitHub Classroom repo for the assignment.
 
-# Git workflow
+# Git Workflow
 
 We have explained this above and also in a previous assignment, but we want to emphasize this once
 again.
@@ -90,7 +90,7 @@ sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) that summarizes 
 highly recommend you to open the page in your browser and keep it in the background throughout the
 semester, so you can easily look up the commands that you want to use.
 
-# Other features
+# Other Features
 
 The shell you use on this VM is called [zsh](https://www.zsh.org/), which is different from
 [bash](https://www.gnu.org/software/bash/) that the tutorial uses. We use zsh because it is easier
@@ -110,7 +110,7 @@ customized zsh on this VM as follows.
   [`exa`](https://github.com/ogham/exa), a more modern implementation of `ls` that has some useful
   features.
 
-# Next steps
+# Next Steps
 
 You need to accept the invite for the next assignment (A1). The process is the same as the last time.
 

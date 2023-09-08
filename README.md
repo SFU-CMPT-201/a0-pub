@@ -114,7 +114,7 @@ customized zsh on this VM as follows.
 
 You need to accept the invite for the next assignment (A1). The process is the same as the last time.
 
-* Go to this URL: [https://classroom.github.com/a/PGPiPLGw](https://classroom.github.com/a/PGPiPLGw)
+* Get the URL for A1. Go to the URL on your browser.
 * Accept the invite for Assignment 1 (A1). It creates a private repo for you that contains the
   assignment.
 * After your repo is created, click the URL displayed on the page to go to your repo.

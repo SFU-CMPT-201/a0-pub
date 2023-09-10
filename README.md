@@ -37,12 +37,12 @@ In order to do this, here are the steps that you must follow.
       not use the original vi. Instead, we use Neovim, a newer implementation of vi.)
     * If you want to stop, enter `exit`, which stops recording.
     * Next time you come back, make sure you go to the correct directory (`cd
-      ~/units/02-tools/a0-USERNAME`)
+      ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username).
       and enter `record`. It does not overwrite what you have recorded previously. It just writes to
       new files for recording.
     * Once you are done with the tutorial and ready to submit, use `git` to push the recording. For
       that, you can enter the following commands. (Note that `$` indicates the command prompt. Do
-      not enter it.)
+      not enter it. Replace `USERNAME` with your GitHub username.)
 
     ```bash
     $ cd ~/units/02-tools/a0-USERNAME

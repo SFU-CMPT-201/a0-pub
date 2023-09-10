@@ -40,9 +40,19 @@ In order to do this, here are the steps that you must follow.
       ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username).
       and enter `record`. It does not overwrite what you have recorded previously. It just writes to
       new files for recording.
-    * Once you are done with the tutorial and ready to submit, use `git` to push the recording. For
-      that, you can enter the following commands. (Note that `$` indicates the command prompt. Do
-      not enter it. Replace `USERNAME` with your GitHub username.)
+    * Once you are done with the tutorial and ready to submit, you are almost ready to use `git` to
+      push your files. However, you need to provide your email and name first. This is a one-time
+      setup, and you don't need to repeat this in the future. Below, replace `you@example.com` with
+      your SFU email and `Your Name` with your name. `$` indicates the command prompt. Do not enter
+      it.
+
+    ```bash
+    $ git config --global user.email "you@example.com"
+    $ git config --global user.name "Your Name"
+    ```
+
+    * Now you can use `git` to push your submission. Below, replace `USERNAME` with your GitHub
+      username.
 
     ```bash
     $ cd ~/units/02-tools/a0-USERNAME

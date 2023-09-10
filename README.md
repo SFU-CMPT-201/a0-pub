@@ -27,7 +27,7 @@ In order to do this, here are the steps that you must follow.
   recording again.
 * More precisely, when you work through the tutorial, follow these steps.
     * Make sure you are in the correct directory for this assignment by entering `cd
-      ~/units/02-tools/a0`.
+      ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username.
     * Always enter `record` first before doing anything else. When `record` is running, the prompt
       will display `[recording]`. Make sure you see it before proceeding.
     * `record` starts recording what you do in your terminal and saves it to the files in a
@@ -36,7 +36,8 @@ In order to do this, here are the steps that you must follow.
       Vi Text Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do
       not use the original vi. Instead, we use Neovim, a newer implementation of vi.)
     * If you want to stop, enter `exit`, which stops recording.
-    * Next time you come back, make sure you go to the correct directory (`cd ~/units/02-tools/a0`)
+    * Next time you come back, make sure you go to the correct directory (`cd
+      ~/units/02-tools/a0-USERNAME`)
       and enter `record`. It does not overwrite what you have recorded previously. It just writes to
       new files for recording.
     * Once you are done with the tutorial and ready to submit, use `git` to push the recording. For
@@ -44,7 +45,7 @@ In order to do this, here are the steps that you must follow.
       not enter it.)
 
     ```bash
-    $ cd ~/units/02-tools/a0
+    $ cd ~/units/02-tools/a0-USERNAME
     $ git add .
     $ git commit -m "A0 submission"
     $ git push

@@ -43,8 +43,8 @@ In order to do this, here are the steps that you must follow.
     * Once you are done with the tutorial and ready to submit, you are almost ready to use `git` to
       push your files. However, you need to provide your email and name first. This is a one-time
       setup, and you don't need to repeat this in the future. Below, replace `you@example.com` with
-      your SFU email and `Your Name` with your name. `$` indicates the command prompt. Do not enter
-      it.
+      your SFU email and `Your Name` with your name. You still need the double quotes. `$` indicates
+      the command prompt. Do not enter it.
 
     ```bash
     $ git config --global user.email "you@example.com"

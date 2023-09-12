@@ -76,8 +76,7 @@ In order to do this, here are the steps that you must follow.
 
 # Git Workflow
 
-We have explained this above and also in a previous assignment, but we want to emphasize this once
-again.
+We have explained this previously, but we want to emphasize this once again.
 
 * `git clone <URL>`: This command clones (i.e., copies) a remote code repo at the URL to your local
   machine. This is typically the very first thing you do.

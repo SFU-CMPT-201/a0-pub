@@ -46,20 +46,20 @@ In order to do this, here are the steps that you must follow.
       your SFU email and `Your Name` with your name. You still need the double quotes. `$` indicates
       the command prompt. Do not enter it.
 
-    ```bash
-    $ git config --global user.email "you@example.com"
-    $ git config --global user.name "Your Name"
-    ```
+      ```bash
+      $ git config --global user.email "you@example.com"
+      $ git config --global user.name "Your Name"
+      ```
 
     * Now you can use `git` to push your submission. Below, replace `USERNAME` with your GitHub
       username.
 
-    ```bash
-    $ cd ~/units/02-tools/a0-USERNAME
-    $ git add .
-    $ git commit -m "A0 submission"
-    $ git push
-    ```
+      ```bash
+      $ cd ~/units/02-tools/a0-USERNAME
+      $ git add .
+      $ git commit -m "A0 submission"
+      $ git push
+      ```
 
     * ***Your final submission is whatever you `git push` by the deadline.*** When you have your
       final recording, make sure you use `git` to add all the files and push it.
@@ -70,6 +70,11 @@ In order to do this, here are the steps that you must follow.
       Classroom repo for the assignment. `git commit` requires a commit message, and in the above,
       "A0 submission" is the commit message. You are free to replace it with your own message. `git
       log` shows commit messages.
+    * Normally, you should avoid using `git add .` since it's going to blindly `git add` all the
+      files. Instead, you should pick and choose the correct files that you want to add and list
+      them separately, e.g., `git add <file0> <file1> ...`. The only reason we're doing `git add .`
+      in this assignment is that for some students, this is the first time using `git` and the
+      command-line interface and we want to simplify the submission for them.
     * If you'd like to back up what you have been doing at any point, you can enter the above
       commands even when you are not ready to submit. Again, the above commands push your files to
       your remote GitHub Classroom repo for the assignment.

@@ -79,6 +79,12 @@ In order to do this, here are the steps that you must follow.
       commands even when you are not ready to submit. Again, the above commands push your files to
       your remote GitHub Classroom repo for the assignment.
 
+## Important Note
+
+You ***should not*** copy and paste the code or command examples. You have to type them yourself
+and understand the meanings. If you copy and paste, you ***will not*** get any credit for this
+assignment.
+
 # Git Workflow
 
 We have explained this previously, but we want to emphasize this once again.

@@ -33,8 +33,8 @@ In order to do this, here are the steps that you must follow.
     * `record` starts recording what you do in your terminal and saves it to the files in a
       directory named `.record`.
     * While recording, make sure that you do not copy and paste anything. If you do, you will get a
-      0. If you happen to do it, you can remove the entire `.record` directory and start from
-      scratch.
+      0. If you happen to do it, you will need to remove the entire `.record` directory and start
+      the tutorial all over again from the beginning.
     * Work through the tutorial and complete the activities. (There is one thing to note---for *6.
       Vi Text Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do
       not use the original vi. Instead, we use Neovim, a newer implementation of vi.)

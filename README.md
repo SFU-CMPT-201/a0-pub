@@ -32,14 +32,19 @@ In order to do this, here are the steps that you must follow.
       will display `[recording]`. Make sure you see it before proceeding.
     * `record` starts recording what you do in your terminal and saves it to the files in a
       directory named `.record`.
+    * While recording, make sure that you do not copy and paste anything. If you do, you will get a
+      0. If you happen to do it, you can remove the entire `.record` directory and start from
+      scratch.
     * Work through the tutorial and complete the activities. (There is one thing to note---for *6.
       Vi Text Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do
       not use the original vi. Instead, we use Neovim, a newer implementation of vi.)
-    * If you want to stop, enter `exit`, which stops recording.
+    * If you want to stop, enter `exit`, which stops recording. Note that this does not stop the
+      container. It only stops recording. You need to enter `exit` again if you want to stop using
+      the container.
     * Next time you come back, make sure you go to the correct directory (`cd
-      ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username).
-      and enter `record`. It does not overwrite what you have recorded previously. It just writes to
-      new files for recording.
+      ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username) and enter `record`. It
+      does not overwrite what you have recorded previously. It just writes to new files for
+      recording.
     * Once you are done with the tutorial and ready to submit, you are almost ready to use `git` to
       push your files. However, you need to provide your email and name first. This is a one-time
       setup, and you don't need to repeat this in the future. Below, replace `you@example.com` with

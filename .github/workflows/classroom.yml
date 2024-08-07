@@ -1,4 +1,8 @@
 name: CI Runner
+permissions:
+  checks: write
+  actions: read
+  contents: read
 on:
   workflow_dispatch:
   repository_dispatch:

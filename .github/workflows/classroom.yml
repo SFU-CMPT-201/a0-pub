@@ -19,7 +19,7 @@ jobs:
         id: grader
         uses: SFU-CMPT-201/graders/.github/actions/a0@main
       - name: Autograding Reporter
-        uses: SFU-CMPT-201/autograding-grading-reporter@main
+        uses: SFU-CMPT-201/autograding-grading-reporter@v1
         env:
           GRADER_RESULTS: "${{steps.grader.outputs.result}}"
         with:

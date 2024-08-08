@@ -15,18 +15,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      #- name: Grader
-      #  id: grader
-      #  uses: SFU-CMPT-201/graders/.github/actions@main
       - name: Grader
         id: grader
-        uses: classroom-resources/autograding-command-grader@v1
-        with:
-          test-name: Test
-          setup-command: ''
-          command: echo "5"
-          timeout: 1
-          max-score: 20
+        uses: SFU-CMPT-201/graders/.github/actions@main
+      #- name: Grader
+      #  id: grader
+      #  uses: classroom-resources/autograding-command-grader@v1
+      #  with:
+      #    test-name: Test
+      #    setup-command: ''
+      #    command: echo "5"
+      #    timeout: 1
+      #    max-score: 20
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:

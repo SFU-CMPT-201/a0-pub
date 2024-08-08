@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Grader
-        uses: SFU-CMPT-201/graders@main
+        uses: SFU-CMPT-201/graders/.github/actions@main
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:

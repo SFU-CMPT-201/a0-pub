@@ -31,8 +31,9 @@ Here are the steps that you must follow.
 * You don't need to do the tutorial in one sitting as you can stop recording and later start
   recording again.
 * There is a file named `a0-checker` in the repo. You *must* execute this at least once before your
-  submission to check if your work is ready for our grader. `a0-checker` performs the following.
-    * It checks if you have recording files.
+  submission to check if your work is ready for our grader. It is okay to run it multiple times as
+  you go and you are encouraged to do it. `a0-checker` performs the following.
+    * It checks if you have correct recording files.
     * It flags if you have copied and pasted anything, which is prohibited. More on this below.
     * It checks your progress and tells you how you are doing.
     * This is not a grader but if the checker says that everything is good and if you are done

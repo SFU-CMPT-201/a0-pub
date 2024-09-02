@@ -10,7 +10,10 @@ that we will use is from [Ryan's Tutorials](https://ryanstutorials.net/), and we
 very nice, introductory-level tutorial for beginners. How long it takes depends on your prior
 background, but the tutorial will probably take less than 3 hours.
 
-In order to do this, here are the steps that you must follow.
+Before you start, please carefully read the entire document. Otherwise, you may miss important
+information that you need to know to get the full credit for this assignment.
+
+Here are the steps that you must follow.
 
 * Use your browser to open the tutorial. The URL is
   [https://ryanstutorials.net/linuxtutorial/](https://ryanstutorials.net/linuxtutorial/).
@@ -19,28 +22,37 @@ In order to do this, here are the steps that you must follow.
 * At the end of each section, there are **Activities** that the tutorial asks you to complete. You
   *must* complete these activities because *those are what we grade*.
 * For grading, you need to record what you do and submit the recording. We have a program named
-  `record` that records what happens in the terminal and saves it to some files. So before you start
+  `record` that records what happens on the terminal and saves it to some files. So before you start
   the tutorial, you need to run `record`, and later submit the files that it creates when you're
-  done. It is important to remember that this records everything that you type in the terminal.
-  Thus, do not type in anything sensitive.
+  done. It is important to remember that this records everything that you type on the terminal.
+  Thus, **do not type in anything sensitive.**
 * You don't need to do the tutorial in one sitting as you can stop recording and later start
   recording again.
+* There is a file named `a0-checker` in the repo. You *must* execute this at least once before your
+  submission to check if your work is ready for our grader. `a0-checker` performs the following.
+    * It checks if you have recording files.
+    * It flags if you have copied and pasted anything, which is prohibited. More on this below.
+    * It checks your progress and tells you how you are doing.
+    * This is not a grader but if the checker says that everything is good and if you are done
+      following the tutorial, you will get the full credit.
+    * It is entirely *your responsibility* to run `a0-checker` before submitting your work. If you
+      don't do it, you may get an unexpected grade.
 * More precisely, when you work through the tutorial, follow these steps.
     * Make sure you are in the correct directory for this assignment by entering `cd
       ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username.
     * Always enter `record` first before doing anything else. When `record` is running, the prompt
       will display `[recording]`. Make sure you see it before proceeding.
-    * `record` starts recording what you do in your terminal and saves it to the files in a
+    * `record` starts recording what you do on your terminal and saves it to the files in a
       directory named `.record`.
     * While recording, make sure that you do not copy and paste anything. If you do, you will get a
       0. If you happen to do it, you will need to remove the entire `.record` directory and start
-      the tutorial all over again from the beginning.
+      the tutorial all over again from the beginning to avoid getting a 0.
     * Work through the tutorial and complete the activities. (There is one thing to note---for *6.
       Vi Text Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do
       not use the original vi. Instead, we use Neovim, a newer implementation of vi.)
     * If you want to stop, enter `exit`, which stops recording. Note that this does not stop the
-      container. It only stops recording. You need to enter `exit` again if you want to stop using
-      the container.
+      Docker container. It only stops recording. You need to enter `exit` again if you want to stop
+      using the container.
     * Next time you come back, make sure you go to the correct directory (`cd
       ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username) and enter `record`. It
       does not overwrite what you have recorded previously. It just writes to new files for

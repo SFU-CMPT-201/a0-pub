@@ -11,7 +11,9 @@ very nice, introductory-level tutorial for beginners. How long it takes depends 
 background, but the tutorial will probably take less than 3 hours.
 
 Before you start, please carefully read the entire document. Otherwise, you may miss important
-information that you need to know to get the full credit for this assignment.
+information that you need to know to get the full credit for this assignment. In fact, for ***every
+assignment***, it is important to read the entire assignment document first, before you start doing
+anything.
 
 Here are the steps that you must follow.
 

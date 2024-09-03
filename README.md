@@ -36,8 +36,8 @@ Here are the steps that you must follow.
     * It checks if you have correct recording files. You will receive a 0 if this fails.
     * It flags if you have copied and pasted anything, which is prohibited. More on this below. You
       will receive a 0 if this fails.
-    * It checks your progress and tells you how you are doing.
-    * This is not a grader but if the checker says that everything is good and if you are done
+    * It performs some basic checks for your progress and tells you how you are doing.
+    * The checker is not a grader but if it says that everything is good and if you are done
       following the tutorial, you will get the full credit.
     * Note that if a check fails, it does not always tell you why. You need to debug it by yourself
       and find out.

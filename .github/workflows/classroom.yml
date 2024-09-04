@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: '0 8 10 9 *' # 8AM 9/10 UTC, 1AM 9/10 PT
+    - cron: '0 9 10 9 *' # 9AM 9/10 UTC, 2AM 9/10 PT
 jobs:
   run-autograding-tests:
     runs-on: self-hosted

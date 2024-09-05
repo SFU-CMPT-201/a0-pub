@@ -31,19 +31,21 @@ Here are the steps that you must follow.
 * You don't need to do the tutorial in one sitting as you can stop recording and later start
   recording again.
 * There is a file named `a0-checker` in the repo. You *must* execute this at least once before your
-  submission to check if your work is ready for grading. It is okay to run it multiple times as
-  you go and you are encouraged to do it. `a0-checker` performs the following.
-    * It checks if you have correct recording files. You will receive a 0 if this fails.
-    * It flags if you have copied and pasted anything, which is prohibited. More on this below. You
-      will receive a 0 if this fails.
-    * It performs some basic checks for your progress and tells you how you are doing.
-    * The checker is not a grader and it only performs minimum basic checks for you. However, if it
-      says that everything is good, and you have faithfully followed the tutorial, you can be
-      assured that you will get the full credit.
+  submission, which performs minimal basic checks. It is okay to run it multiple times as you go and
+  you are encouraged to do it. A few things to note about the checker:
+    * It warns you if you do not have any recording files. Generally, if you do not record your work
+      sessions, you will receive a 0.
+    * It warns you if it detects any copy-and-paste actions. Generally, if you copy and paste
+      anything, you will receive a 0. More on this below.
+    * It performs some basic checks for your progress and tells you about it.
+    * It is important to understand that the checker is not a grader and only performs minimal basic
+      checks for you. We only provide it to make sure that you do not make any silly mistakes that
+      could lead to an unexpected grade, e.g., a 0 or a very low grade. However, if it says that
+      everything is good, and you have faithfully followed the tutorial, you can be assured that you
+      will get the full credit.
     * Note that if a check fails, it does not always tell you why. You need to debug it by yourself
       and find out.
-    * It is entirely *your responsibility* to run `a0-checker` before submitting your work. If you
-      don't do it, you may get an unexpected grade.
+    * It is entirely *your responsibility* to run `a0-checker` before submitting your work.
 * More precisely, when you work through the tutorial, follow these steps.
     * Make sure you are in the correct directory for this assignment by entering `cd
       ~/units/02-tools/a0-USERNAME` where `USERNAME` is your GitHub username.
@@ -51,9 +53,10 @@ Here are the steps that you must follow.
       will display `[recording]`. Make sure you see it before proceeding.
     * `record` starts recording what you do on your terminal and saves it to the files in a
       directory named `.record`.
-    * While recording, make sure that you do not copy and paste anything. If you do, you will get a
-      0. If you happen to do it, you will need to remove the entire `.record` directory and start
-      the tutorial all over again from the beginning to avoid getting a 0.
+    * While recording, make sure that you do not copy and paste anything. You have to type
+      everything yourself and understand the meanings. If you do, you will get a 0. If you happen to
+      do it, you will need to remove the entire `.record` directory and start the tutorial all over
+      again from the beginning to avoid getting a 0.
     * Work through the tutorial and complete the activities. (There is one thing to note---for *6.
       Vi Text Editor* section, whenever the tutorial says enter `vi`, enter `nvim` instead. We do
       not use the original vi. Instead, we use Neovim, a newer implementation of vi.)
@@ -102,12 +105,6 @@ Here are the steps that you must follow.
     * If you'd like to back up what you have been doing at any point, you can enter the above
       commands even when you are not ready to submit. Again, the above commands push your files to
       your remote GitHub Classroom repo for the assignment.
-
-## Important Note
-
-You ***should not*** copy and paste the code or command examples. You have to type them yourself
-and understand the meanings. If you copy and paste, you ***will not*** get any credit for this
-assignment.
 
 # Git Workflow
 
